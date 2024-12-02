@@ -1,0 +1,7 @@
+.arrow{
+    cursor: "pointer",
+    position: "absolute",
+    left: "10px",
+    zIndex: 1,
+    fontSize: "24px"
+}
