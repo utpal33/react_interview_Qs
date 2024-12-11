@@ -13,5 +13,33 @@ function getHexColor(){
 
 // console.log(true === '');
 
-let arr = [1,2,3,4,5,6]
-console.log(arr.slice(-2,-1))
+
+
+let arr = [
+    {age:25, city:"banglore"},
+    {age:23, city:"chennai"},
+    {age:24, city:"mumbai"},
+    {age:29, city:"bangolre"}
+    ]
+
+arr.reduce((acc,curr, currindex, arr)=>{
+    
+})
+
+
+// function inputvalue(initialValue){
+//     // const [value, setValue] = useState(initialValue)
+//     // const [color, setColor] = useState(initialValue)
+//     let value = initialValue
+//     let color = initialValue
+//     return {
+//         initialValue,
+//         value
+//     }
+// }
+// console.log(inputvalue(3).value);
+
+let array = [400,5,6,7,23,4,56]
+
+console.log(array.sort((a,b)=> a-b))
+console.log(array[array.length-1])
