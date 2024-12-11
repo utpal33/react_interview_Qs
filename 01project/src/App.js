@@ -7,22 +7,26 @@ import ImageSlider from './components/ImageSlider';
 import ColorInput from './components/ColorInput';
 import { use, useState } from 'react';
 import Counter from './components/Counter';
+import HandlingLoading from './components/HandlingLoading';
 
 function App() {
   const [currentComp, setCurrentComp] = useState(null)
   return (
     <div className="App">
-      <Accordian />
+      {/* <Accordian />
       <ColorGenerator />
-      <StarRating />
+      <StarRating /> */}
       {/* <ImageSlider /> */}
-      <ColorInput />
-      <button onClick={()=> setCurrentComp("Accordian")}>Accordian</button>
+      {/* <Counter /> */}
+      {/* <ColorInput /> */}
+      {/* <button onClick={()=> setCurrentComp("Accordian")}>Accordian</button>
       <button onClick={()=> setCurrentComp("ColorGenerator")}>ColorGenerator</button>
       <button onClick={()=> setCurrentComp("StarRating")}>StarRating</button>
       <button onClick={()=> setCurrentComp("Accordian")}>Accordian</button>
-      <button onClick={()=> setCurrentComp("Accordian")}>Accordian</button>
-      <Counter />
+      <button onClick={()=> setCurrentComp("Accordian")}>Accordian</button> */}
+      
+
+      <HandlingLoading />
     </div>
   );
 }
