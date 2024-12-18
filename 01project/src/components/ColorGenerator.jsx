@@ -49,6 +49,7 @@ function ColorGenerator() {
 
             <h3>{typeOfColor}</h3>
             <h1>{color}</h1>
+            <></>
         </div>
         
     </>
